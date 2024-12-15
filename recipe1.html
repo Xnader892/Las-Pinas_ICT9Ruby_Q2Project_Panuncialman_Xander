@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Background image for the page */
+        body {
+            background-image: url('Bg2.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin-top: 50px;
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        .recipe-steps {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .ingredient-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .ingredient-list ul li {
+            margin-bottom: 10px;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 30px auto;
+            text-align: center;
+            width: 200px;
+        }
+
+        .card {
+            border: 2px solid #000;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-body {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Asian Cuisine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food.html">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggest.html">Suggest Recipes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Dish Name: <span class="text-secondary">Adobo</span></h2>
+        <h3 class="mb-4">Recipe and Ingredients</h3>
+
+        <!-- Ingredients Section -->
+        <div class="ingredient-list mb-4">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>Chicken (or Pork) - 1 kg</li>
+                <li>Garlic - 5 cloves, minced</li>
+                <li>Soy Sauce - 1/2 cup</li>
+                <li>Vinegar - 1/4 cup</li>
+                <li>Bay Leaves - 2-3 leaves</li>
+                <li>Black Pepper - 1 tsp</li>
+                <li>Onion - 1 medium, sliced (optional)</li>
+                <li>Water - 1 cup</li>
+                <li>Oil - for frying</li>
+            </ul>
+        </div>
+
+        <!-- Recipe Steps Section -->
+        <div class="recipe-steps">
+            <h4>Recipe Steps:</h4>
+            <ol>
+                <li>Heat oil in a pan and sauté garlic until golden brown.</li>
+                <li>Add chicken (or pork) and sauté until lightly browned.</li>
+                <li>Pour in the soy sauce and vinegar, then add bay leaves and pepper. Let it simmer for 5-10 minutes without stirring.</li>
+                <li>Add water and bring to a boil, then lower the heat and let it simmer for 30-40 minutes until the meat is tender and the sauce thickens.</li>
+                <li>Adjust seasoning if necessary (add salt or sugar to taste).</li>
+                <li>Serve hot with steamed rice. Enjoy!</li>
+            </ol>
+        </div>
+
+        <!-- Back Button -->
+        <a href="page2.html" class="btn btn-secondary back-btn">Back to Food List</a>
+    </div>
+
+</body>
+</html>
